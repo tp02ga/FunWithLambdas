@@ -10,9 +10,15 @@ public class LambdaApp {
         String addedStrings = oldInterfaceExample.addStrings();
         System.out.println(addedStrings);
 
+        // Lambda Example 1, without passing FunctionalInterface as a parameter
         LambdaExample lambdaExample = new LambdaExample();
         addedStrings = lambdaExample.addStrings();
         System.out.println(addedStrings);
+
+        // Lambda Example 2, passing FunctionalInterface as a parameter
+        addedStrings = lambdaExample.addStrings((s1, s2) -> s1 + " " + s2);
+        System.out.println(addedStrings);
+
     }
 
 }

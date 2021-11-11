@@ -4,4 +4,5 @@ package com.coderscampus.newWay;
 public interface LambdaInterface {
 
     String addStringsTogether(String s1, String s2);
+
 }

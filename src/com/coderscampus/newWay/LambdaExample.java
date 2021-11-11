@@ -7,4 +7,9 @@ public class LambdaExample {
 
         return functionalInterface.addStringsTogether("Hello there.", "I'm the new way");
     }
+
+    public String addStrings(LambdaInterface lambdaInterface) {
+        return lambdaInterface.addStringsTogether("Hello there.", "I'm the new way");
+    }
+
 }
